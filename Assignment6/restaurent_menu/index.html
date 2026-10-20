@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Restaurant Menu Using Image Map</title>
+</head>
+<body>
+
+    <h1>INTERACTIVE RESTAURANT MENU USING IMAGE MAP</h1>
+    <p>Click on any food item to know more about it.</p>
+    
+
+    <img src="https://img.magnific.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?semt=ais_hybrid&w=740&q=80 " 
+         alt="Restaurant Food Menu Top View" 
+         usemap="#restaurantmap"
+         width="800" height="600">
+
+
+    <map name="restaurantmap">
+
+
+        <area shape="circle" coords="400,500,90" 
+              href="pizza.html" 
+              alt="Pizza - Click for details"
+              target="_blank">
+
+        <area shape="circle" coords="700,250,80" 
+              href="burger.html" 
+              alt="Burger - Click for details"
+              target="_blank">
+
+
+        <area shape="rect" coords="280,340,420,470" 
+              href="fries.html" 
+              alt="French Fries - Click for details"
+              target="_blank">
+
+    
+        <area shape="rect" coords="400,100,580,280" 
+              href="menu.html" 
+              alt="Menu Card - Click to see full menu"
+              target="_blank">
+
+
+        <area shape="poly" coords="80,500,150,480,200,520,180,600,90,620" 
+              href="sandwich.html" 
+              alt="Sandwich - Click for details"
+              target="_blank">
+
+
+        <area shape="poly" coords="750,520,820,510,860,560,830,630,760,620" 
+              href="cake.html" 
+              alt="Cake Slice - Click for details"
+              target="_blank">
+
+
+        <area shape="default" 
+              href="default.html" 
+              alt="Other Area - Welcome Page">
+
+    </map>
+
+    <hr>
+    <h3>All food menu items wit their are type tag</h3>
+    <ul>
+        <li>Pizza - circle</li>
+        <li>Burger - circle</li>
+        <li>French Fries - rect</li>
+        <li>Menu Card - rect</li>
+        <li>Sandwich - poly</li>
+        <li>Cake Slice - poly</li>
+        <li>Remaining Area - default</li>
+    </ul>
+
+</body>
+</html>
